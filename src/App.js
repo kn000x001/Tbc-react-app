@@ -1,12 +1,15 @@
-import logo from './logo.svg';
+import React, {useState} from "react";
 import './App.css';
+import data from './mock-data.json'
 
 function App() {
+
+  const [contacts, setContacts] = useState(data);
   return (
     <div className="app-container">
       <table>
         <thead>
-          <tr>
+          <tr className="head-info">
             <th>First name</th>
             <th>Last Name</th>
             <th>ID</th>
@@ -18,15 +21,17 @@ function App() {
         </thead>
 
         <tbody>
+          {contacts.map((contact) =>(
           <tr>
-            <td>Jack</td>
-            <td>Doe</td>
-            <td>08551395763</td>
-            <td>male</td>
-            <td>05/07/1993</td>
-            <td>London</td>
-            <td>Walter St.</td>
-          </tr>
+            <td>{contact.firstName}</td>
+            <td>{contact.lastName}</td>
+            <td>{contact.idNumber}</td>
+            <td>{contact.gender}</td>
+            <td>{contact.dateOfBirth}</td>
+            <td>{contact.placeOfBirth}</td>
+            <td>{contact.address}</td>
+          </tr>))}
+          
         </tbody>
       </table>
     </div>
