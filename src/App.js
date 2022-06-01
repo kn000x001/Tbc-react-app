@@ -8,17 +8,23 @@ import EditableRow from "./components/EditableRow";
 const App = () => {
   const [contacts, setContacts] = useState(data);
   const [addFormData, setAddFormData] = useState({
-    fullName: "",
-    address: "",
-    phoneNumber: "",
-    email: "",
+    FirstName: "",
+    LastName: "",
+    Adress: "",
+    PlaceOfBirth: "",
+    IdNumber: "",
+    Gender: "",
+    DateOfBirth: "",
   });
 
   const [editFormData, setEditFormData] = useState({
-    fullName: "",
-    address: "",
-    phoneNumber: "",
-    email: "",
+    FirstName: "",
+    LastName: "",
+    Adress: "",
+    PlaceOfBirth: "",
+    IdNumber: "",
+    Gender: "",
+    DateOfBirth: "",
   });
 
   const [editContactId, setEditContactId] = useState(null);
@@ -52,10 +58,13 @@ const App = () => {
 
     const newContact = {
       id: nanoid(),
-      fullName: addFormData.fullName,
-      address: addFormData.address,
-      phoneNumber: addFormData.phoneNumber,
-      email: addFormData.email,
+      FirstName: addFormData.FirstName,
+      LastName: addFormData.LastName,
+      Adress: addFormData.Adress,
+      PlaceOfBirth: addFormData.PlaceOfBirth,
+      IdNumber: addFormData.IdNumber,
+      Gender: addFormData.Gender,
+      DateOfBirth: addFormData.DateOfBirth,
     };
 
     const newContacts = [...contacts, newContact];
@@ -67,10 +76,13 @@ const App = () => {
 
     const editedContact = {
       id: editContactId,
-      fullName: editFormData.fullName,
-      address: editFormData.address,
-      phoneNumber: editFormData.phoneNumber,
-      email: editFormData.email,
+      FirstName: editFormData.FirstName,
+      LastName: editFormData.LastName,
+      Adress: editFormData.Adress,
+      PlaceOfBirth: editFormData.PlaceOfBirth,
+      IdNumber: editFormData.IdNumber,
+      Gender: editFormData.Gender,
+      DateOfBirth: editFormData.DateOfBirth,
     };
 
     const newContacts = [...contacts];
@@ -88,10 +100,13 @@ const App = () => {
     setEditContactId(contact.id);
 
     const formValues = {
-      fullName: contact.fullName,
-      address: contact.address,
-      phoneNumber: contact.phoneNumber,
-      email: contact.email,
+      FirstName: contact.FirstName,
+      LastName: contact.LastName,
+      Adress: contact.Adress,
+      PlaceOfBirth: contact.PlaceOfBirth,
+      IdNumber: contact.IdNumber,
+      Gender: contact.Gender,
+      DateOfBirth: contact.DateOfBirth,
     };
 
     setEditFormData(formValues);
@@ -150,7 +165,7 @@ const App = () => {
       </form>
 
       <h2>Add a Contact</h2>
-      <form class="user-input" onSubmit={handleAddFormSubmit}>
+      <form className="user-input" onSubmit={handleAddFormSubmit}>
         <input
           type="text"
           name="FirstName"
