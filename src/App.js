@@ -34,6 +34,11 @@ function App() {
           
         </tbody>
       </table>
+
+      <div><a href="/Adduserpage">Add User</a></div>
+      <Routes>
+        <Route path="/Adduserpage" element={<Adduserpage/>} />
+      </Routes>
     </div>
   );
 }
