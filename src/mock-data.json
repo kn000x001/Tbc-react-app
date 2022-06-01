@@ -1,60 +1,60 @@
 [
     {
       "id": 1,
-      "firstName": "Jenny",
-      "lastName": "Chan",
-      "address": "3 waterfoot road",
-      "placeOfBirth": "Washington",
-      "idNumber": "08551395763",
-      "gender": "female",
-      "dateOfBirth": "02/03/1995"
+      "FirstName": "Jenny",
+      "LastName": "Chan",
+      "Adress": "3 waterfoot road",
+      "PlaceOfBirth": "Washington",
+      "IdNumber": "08551395763",
+      "Gender": "female",
+      "DateOfBirth": "02/03/1995"
 
     },
     {
       "id": 2,
-      "firstName": "Jessica",
-      "lastName": "warren",
-      "address": "4 tall town",
-      "placeOfBirth": "Jacksonville",
-      "idNumber": "08551395763",
-      "gender": "female",
-      "dateOfBirth": "05/07/1999"
+      "FirstName": "Jessica",
+      "LastName": "warren",
+      "Adress": "4 tall town",
+      "PlaceOfBirth": "Jacksonville",
+      "IdNumber": "08551395763",
+      "Gender": "female",
+      "DateOfBirth": "05/07/1999"
 
 
     },
     {
       "id": 3,
-      "firstName": "Tony",
-      "lastName": "Frank",
-      "address": "11 lesly road",
-      "placeOfBirth": "Austin",
-      "idNumber": "08551395763",
-      "gender": "male",
-      "dateOfBirth": "05/07/1972"
+      "FirstName": "Tony",
+      "LastName": "Frank",
+      "Adress": "11 lesly road",
+      "PlaceOfBirth": "Austin",
+      "IdNumber": "08551395763",
+      "Gender": "male",
+      "DateOfBirth": "05/07/1972"
 
 
     },
     {
       "id": 4,
-      "firstName": "Jeremy",
-      "lastName": "Clark",
-      "address": "333 miltown manor",
-      "placeOfBirth": "Boston",
-      "idNumber": "08551395763",
-      "gender": "male",
-      "dateOfBirth": "05/07/1985"
+      "FirstName": "Jeremy",
+      "LastName": "Clark",
+      "Adress": "333 miltown manor",
+      "PlaceOfBirth": "Boston",
+      "IdNumber": "08551395763",
+      "Gender": "male",
+      "DateOfBirth": "05/07/1985"
 
 
     },
     {
       "id": 5,
-      "firstName": "Raymond",
-      "lastName": "Edwards",
-      "address": "99 blue acres",
-      "placeOfBirth": "New-York",
-      "idNumber": "08551395763",
-      "gender": "male",
-      "dateOfBirth": "05/07/1997"
+      "FirstName": "Raymond",
+      "LastName": "Edwards",
+      "Adress": "99 blue acres",
+      "PlaceOfBirth": "New-York",
+      "IdNumber": "08551395763",
+      "Gender": "male",
+      "DateOfBirth": "05/07/1997"
 
 
     }

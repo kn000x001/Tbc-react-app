@@ -39,3 +39,9 @@ form td:last-child {
 form * {
   font-size: 28px;
 }
+
+
+.user-input {
+  display: flex;
+  flex-direction: column;
+}
